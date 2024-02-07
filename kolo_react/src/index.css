@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(247, 248, 252);
+}
+.creabtu {
+  width: fit-content;
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  color: #121212;
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+  border: none;
+}
+.logbtu {
+  width: fit-content;
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+  border: 1px solid white;
+}
+.landingbackground {
+  background-image: url(./assets/1-water-money-plant.png);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-attachment: fixed;
+}
+.landingtext {
+  margin-top: 140px;
+}
+.landingtext h1 {
+  text-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.25);
+  font-size: 54.286px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.landingtext button {
+  width: 250px;
+  padding: 15px 20px;
+
+  border-radius: 50px;
+  border: 2px solid #fff;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 20px 25px 0px rgba(15, 15, 16, 0.1);
+  backdrop-filter: blur(50px);
+}
+.screen {
+  width: 100%;
+  height: 100vh;
+}
+.loginform {
+  width: 500px;
+  height: fit-content;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.loglabel {
+  margin: 10px;
+}
+
+.loglabel p {
+  text-transform: capitalize;
+}
+.loglabelinput,
+.loglabeldiv {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.loglabeldiv {
+  display: flex;
+}
+.loglabeldiv input {
+  height: 100%;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.loginscreen {
+  background-image: url(./assets/bg2.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto;
+}
+.logotop{
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  border-radius: 50px;
+  margin: 20px;
+}
+.thescreen{
+  background-color: rgb(247, 248, 252);
+}
+
+.navlogo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.usernav{
+  background-color: rgb(247, 248, 252);
+  min-width: 250px;
+  height: 100vh;
+  border: 1px solid black;
+  box-shadow: 5px 0px 15px rgb(175, 175, 175);
+  border-radius: 0 20px 20px 0;
+  
+}
+.navbutt{
+  width: fit-content;
+ border: none;
+  padding: 15px;
+  margin: 5px;
+   border-radius: 50px;
+   text-decoration: none;
+   font-size: 15px;
+   color: rgb(10, 79, 143);
+   font-weight: bold;
+   transition: linear all .5s;
+}
+.navbutt:hover{
+  background-color: rgb(10, 79, 143);
+  color: white;
+
+}
+.profileimg{
+  height: 200px;
+  width: 200px;
+}
+.classcard{
+  height: 60vh;
+}
+
+.oneofit{
+  height: 220px;
+  background-color: rgb(10, 79, 143);
+  color: white;
+  width: 33%;
+  padding: 20px;
+}
+.createbutt{
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.groupholder{
+  width: 100%;
+  /* border: rgb(10, 79, 143) solid 2px; */
+  border-radius: 10px; 
+  margin: 10px;
+  padding: 20px;
+}
+.grouptexthead,.headtext{
+  color: rgb(10, 79, 143);
+}
+.fundimg{
+  width: 100%;
+  /* height: 200px; */
+  font-size: 200px;
+  color: rgb(10, 79, 143);
+  text-align: center;
+}
+.holdimgfundingdetails{
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border-radius: 20px;
+}
